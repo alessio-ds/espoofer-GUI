@@ -1,5 +1,33 @@
-# espoofer
+# espoofer-GUI
 
+**This fork contains the GUI version of espoofer.**
+
+*In the following example, I will be sending myself an email as "silvioberlusconi@governiberlusconi.it".*
+![gui example gif](./example.gif)
+
+## Installation
+- Download this tool
+```
+git clone https://github.com/alessio-ds/espoofer-GUI
+```
+### Python (suggested)
+- Install dependencies
+```
+sudo pip3 install -r requirements.txt
+```
+> *Python version: Python 3 (**>=3.7**).*
+
+- Run it, and fill in the fields.
+```
+python espoofer-GUI.py
+```
+
+### Windows (slower)
+Download [**espoofer-GUI.exe**](https://transfer.sh/ll8Q1V/espoofer-GUI.exe), put it in the project folder and run it.
+
+Compiled with [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/).
+
+## espoofer classic below - Description and Usage
 *espoofer* is an open-source testing tool to bypass SPF, DKIM, and DMARC authentication in email systems. It helps mail server administrators and penetration testers to check whether the target email server and client are vulnerable to email spoofing attacks or can be abused to send spoofing emails.
 
 <!-- ![Gmail spoofing demo](images/gmail-spoofing-demo.png "espoofer demo" )
@@ -51,17 +79,6 @@ Jianjun Chen, Vern Paxson, and Jian Jiang. "Composition kills: A case study of e
 </p>
 </details>
 
-## Installation
-- Download this tool
-```
-git clone https://github.com/chenjj/espoofer
-```
-
-- Install dependencies
-```
-sudo pip3 install -r requirements.txt
-```
-> *Python version: Python 3 (**>=3.7**).*
 
 ## Usage
 espoofer has three work modes: *server* ('s', default mode), *client* ('c') and *manual* ('m'). In *server* mode, espoofer works like a mail server to test validation in receiving services. In *client* mode, espoofer works as an email client to test validation in sending services. *Manual* mode is used for debug purposes. 
