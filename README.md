@@ -23,7 +23,7 @@ python espoofer-GUI.py
 ```
 
 ### Windows (slower)
-Download [**espoofer-GUI.exe**](https://transfer.sh/ll8Q1V/espoofer-GUI.exe), put it in the project folder and run it.
+Download [**espoofer-GUI.exe**](https://github.com/alessio-ds/espoofer-GUI/releases/download/1.0/espoofer-GUI.exe), put it in the project folder and run it.
 
 Compiled with [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/).
 
